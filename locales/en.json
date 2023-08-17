@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "title": "New Scheduler",
+    "configuration": "Configuration",
+    "name": "Scheduler name:",
+    "time": "Time",
+    "time_help": "The time (HH:mm) to execute the scheduler. HH='*' any hour, mm='*' any minute",
+    "timezone": "Timezone",
+    "runonce": "Run once",
+    "runonce_help": "Stop the scheduler after first execution.",
+    "repetition": "Repeat every",
+    "repetition_help": "The days of the week to repeat the scheduler. If no days selected, the scheduler is disabled.",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "function_add": "Add scheduler",
+    "error": {
+      "name_required": "Name is required",
+      "time_required": "Time is required",
+      "time_invalid": "Enter time as [HH]:[mm], [*]:[mm], [HH]:[*] or [*]:[*]",
+      "timezone_required": "Timezone is required",
+      "timezone_invalid": "Enter Timezone as Europe/Helsinki, Pacific/Honolulu, UTC, EET, Etc/GMT+3, etc."
+    }
+  },
+  "message": {
+    "not_scheduled": "Not Scheduled"
+  }
+}
